@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Checkout | SpeakEnglish</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-purple-50 text-slate-800 font-sans h-screen flex flex-col">
+
+    <nav class="bg-white border-b border-purple-100 py-4 text-center shadow-sm">
+        <div class="text-2xl font-black tracking-tighter text-violet-950">Speak<span class="text-fuchsia-600">English</span></div>
+    </nav>
+
+    <div class="flex-grow flex items-center justify-center p-6">
+        <div class="bg-white max-w-lg w-full rounded-3xl shadow-2xl overflow-hidden border border-purple-100">
+            
+            <div class="bg-violet-900 p-6 text-white text-center">
+                <p class="text-violet-300 text-sm font-bold uppercase tracking-wider mb-1">Order Summary</p>
+                <h2 class="text-2xl font-black mb-2">Better Responses: Book 01</h2>
+                <div class="text-4xl font-black text-fuchsia-400">₹29</div>
+            </div>
+
+            <div class="p-8 text-center">
+                <h3 class="text-lg font-bold text-violet-950 mb-6">How to get your PDF right now:</h3>
+                
+                <div class="mb-8">
+                    <div class="flex items-center justify-center gap-3 mb-4">
+                        <span class="bg-fuchsia-100 text-fuchsia-600 w-8 h-8 rounded-full flex items-center justify-center font-black">1</span>
+                        <p class="font-bold text-slate-700">Scan & Pay via any UPI App</p>
+                    </div>
+                    
+                    <div class="w-48 h-48 mx-auto bg-slate-100 rounded-xl border-2 border-dashed border-violet-200 flex items-center justify-center overflow-hidden p-2">
+                        <img src="upi-qr.jpeg" alt="UPI QR Code" class="w-full h-full object-contain">
+                    </div>
+                    
+                    <p class="text-sm text-slate-500 mt-4 font-medium">Please verify the receiver name is: <br><span class="font-black text-violet-900 text-lg uppercase tracking-wide">Debjani Handa</span></p>
+                </div>
+
+                <hr class="border-violet-100 mb-8">
+
+                <div>
+                    <div class="flex items-center justify-center gap-3 mb-4">
+                        <span class="bg-fuchsia-100 text-fuchsia-600 w-8 h-8 rounded-full flex items-center justify-center font-black">2</span>
+                        <p class="font-bold text-slate-700">Email us the screenshot</p>
+                    </div>
+                    <p class="text-sm text-slate-500 mb-6">Send the payment screenshot to our email, and we will reply with your PDF instantly!</p>
+                    
+                    <a href="mailto:debjani.16@gmail.com?subject=Payment Screenshot for Book 1" class="inline-flex items-center justify-center w-full bg-violet-900 text-white py-4 rounded-xl font-black text-lg hover:bg-fuchsia-600 transition shadow-lg">
+                        <i class="fas fa-envelope text-xl mr-2"></i> Send Email
+                    </a>
+                    <p class="text-xs text-slate-400 mt-3">Or manually email: <span class="font-bold text-violet-900">debjani.16@gmail.com</span></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
